@@ -334,6 +334,3 @@ LiFePO4 的 OCV 曲线与代码里的 Li-ion 表不同，电压法 SoC 会偏；
 - [Waveshare UPS Module Mini for STM32 示例](https://www.waveshare.com/wiki/Template:UPS_Module_Mini_for_stm32_use)
 
 > 本项目与上述厂商/项目无隶属关系；参考链接仅用于硬件与协议对照。
-#   s t m 3 2 f 1 0 3 c 8 t 6 _ u p s _ u s b  
- #   s t m 3 2 f 1 0 3 c 8 t 6 _ u p s _ u s b  
- 
