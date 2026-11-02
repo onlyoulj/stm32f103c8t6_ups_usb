@@ -125,9 +125,9 @@ python host/ups_monitor.py --cancel
 
 `--port` 省略时会自动找 `0483:5740` 的 STM32 CDC 口。也可以直接使用 `XSTATUS`/`XCONFIG` JSON。
 
-![](.\img\index.png)
+![](/img/index.png)
 
-![](.\img\setting.png)
+![](/img/setting.png)
 
 ### 5. NUT（Linux/NAS）
 
