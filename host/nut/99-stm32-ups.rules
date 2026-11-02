@@ -1,0 +1,2 @@
+# STM32 USB CDC (VID:PID 0483:5740) -> stable UPS serial device
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", SYMLINK+="stm32-ups", MODE="0660", GROUP="dialout"

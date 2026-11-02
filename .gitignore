@@ -1,0 +1,9 @@
+.pio/
+.vscode/
+test/build/
+__pycache__/
+*.pyc
+build_*.log
+host/build/
+host/dist/
+*.spec

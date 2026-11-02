@@ -1,0 +1,15 @@
+[Unit]
+Description=STM32F103 DC UPS low-battery shutdown guard
+After=network.target
+
+[Service]
+Type=simple
+# Adjust the path, port and threshold to your installation.  --execute is
+# REQUIRED for the guard to actually run the shutdown command.
+ExecStart=/usr/bin/python3 /opt/stm32-ups/host/ups_guard.py --port /dev/stm32-ups --threshold 20 --interval 5 --execute --shutdown-cmd "/sbin/shutdown -h now"
+Restart=always
+RestartSec=5
+User=root
+
+[Install]
+WantedBy=multi-user.target
